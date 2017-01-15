@@ -11,14 +11,20 @@
 </head>
 <body>
   <article class="container promo">
-    <h1><a href="./">{{ site.tag_text }}</a></h1>
+    <h1 class="main-title"><a href="./">{{ site.tag_text }}</a></h1>
     {{ content }}
   </article>
 
-  <footer class="container">
-    <p>
-      <small>Humbly made in Bordeaux and London.</small>
-    </p>
-  </footer>
+  <section class="container">
+    <h1 class="col-md-12 clear">About us</h1>
+
+    {% for person_hash in site.data.team %}
+    {% assign id = person_hash[0] %}
+    {% assign person = person_hash[1] %}
+    {% include team/card-in-list.html person=person id=id %}
+    {% endfor %}
+  </section>
+
+  {% include footer.html %}
 </body>
 </html>
