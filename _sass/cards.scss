@@ -30,6 +30,9 @@
   dd {
     margin: 0 1em 1.5em 0;
   }
+  dd.same-def {
+    margin: 0 1em 0 0;
+  }
 
   dd.main {
     font-size: 1em;   // restore initial size
