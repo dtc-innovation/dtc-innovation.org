@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Project design, digital innovation, rapid prototyping and web engineering services.
 ---
 
 <span id="ref-services"></span>

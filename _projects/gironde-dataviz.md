@@ -1,13 +1,12 @@
 ---
-name: Permaculture Design Tools
+name: Public Budget Datavizualisation
 short_description: |
-  Observe experts to design the foundations of an ecosystem of agricultural data systems and user-friendly tools.
+  Provide a lean and empowering access of the public budget to citizens and local administration.
 labels:
-- Knowledge Databases
 - User Interfaces
 - Open Data
-current_stage: Project Pitch
-next_stage: N/C
+current_stage: Design & Development
+next_stage: Deployment
 resources:
   github: https://github.com/dtc-innovation/dataviz-finances-gironde
 milestones:

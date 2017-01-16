@@ -1,11 +1,12 @@
 ---
-name: Public Budget Datavizualisation
+name: Permaculture Design Tools
 short_description: |
-  Provide a lean and empowering access of the public budget to citizens and local administration.
+  Observe experts to design the foundations of an ecosystem of agricultural data systems and user-friendly tools.
 labels:
+- Knowledge Databases
 - Business Tools
 - Open Data
-current_stage: Design & Development
-next_stage: Deployment
+current_stage: Project Pitch
+next_stage: N/C
 milestones:
 ---
