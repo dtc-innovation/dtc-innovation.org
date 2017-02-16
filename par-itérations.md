@@ -9,7 +9,7 @@ Dans cette page, nous expliquons une partie importante de notre façon de travai
 
 On peut schématiser "l'imaginaire client" classique avec le schéma suivant :
 
-// TODO
+![départ, flèche directe, arrivée](./images/itérations/fantasme.png)
 
 On peut découper 3 éléments dans ce schéma : 
 - le client sait où il en est
@@ -29,11 +29,8 @@ Enfin, la pratique de transformer une idée en un produit apporte son lot de sur
 
 Ils sont incomptables les projets qui se sont planifiés comme des lignes droites où on laisse le prestataire avec un cahier des charges et on le retrouve 6 mois ou 2 ans plus tard. Le fameux [effet tunnuel](http://christian.hohmann.free.fr/index.php/lean-en-conception-et-developpement/les-basiques-du-lean-en-conception-et-developpement/286-panique-en-developpement-effet-tunnel) On arrive toujours au même résultat :
 
-// TODO
-// point ce que le prestataire avait compris
-// point ce que le client voulait dire
-// point ce qu'il y a dans le cahier des charges
-// point où on en est arrivé
+![différence entre l'attendu et le réalisé](./images/itérations/tunnel-fin.png)
+
 
 Il existe [d'autres images](http://www.tamingdata.com/wp-content/uploads/2010/07/tree-swing-project-management-large.png) sur le sujet.
 
@@ -44,8 +41,7 @@ Le budget du client est consommé, le produit n'est pas celui qu'il attendait et
 
 Nous acceptons un présupposé différent qui ressemble plutôt à ça :
 
-// TODO 
-// destination est une zone plus vague
+![l'arrivée est plus floue](./images/itérations/vision-démarrage.png)
 
 Vous savez seulement vaguement où vous voulez. Pas grave. On va travailler ensemble à deux tâches simultanément :
 - rafiner le besoin
@@ -53,7 +49,7 @@ Vous savez seulement vaguement où vous voulez. Pas grave. On va travailler ense
 
 Et ça va ressembler à ça :
 
-// TODO plusieurs images
+![l'arrivée est plus floue](./images/itérations/itérations.png)
 
 Cette méthode a plusieurs avantages :
 - Vous savez de mieux en mieux ce que vous voulez
