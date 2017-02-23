@@ -112,4 +112,6 @@ Notre expérience jusqu'ici a été que l'association, ça marche.
 
 Légalement, si on veut être complet, on dit que : 
 
-> dtc innovation est une association loi 1901 à activité commerciale et à gestion non-désintéressée
+> dtc innovation est une association loi 1901 à but non-lucratif, à activité commerciale et à gestion non-désintéressée
+
+C'est un peu long. Dites juste "[dtc](https://dtc-innovation.github.io/random)" ;-)
