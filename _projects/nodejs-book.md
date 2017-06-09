@@ -1,18 +1,18 @@
 ---
-name: Node.js Book
+name: Learning Node.js
 short_description: |
   Modern ways of writing web and non-web applications with the Node.js platform.
 
   We also design a modern publishing workflow and authoring tooling.
 labels:
-- Publishing
-- Content Design
-highlights_order: 2
+  - Publishing
+  - Content Design
+highlights_order: ''
 current_stage: Writing and peer reviews
 next_stage: Grand review
 resources:
-  github: https://github.com/oncletom/nodebook
-  website: https://oncletom.io/node.js/
+  github: 'https://github.com/oncletom/nodebook'
+  website: 'https://oncletom.io/node.js/'
 ---
 
 We **design and author** a programming book about the **Node.js platform** with France's #1 programming publishing house [Eyrolles][eyrolles].
@@ -39,3 +39,4 @@ The **content is derived** to be distributed as a bookbound book, HTML website, 
 
 [eyrolles]: https://www.eyrolles.com/
 [rauschma]: http://2ality.com/
+
