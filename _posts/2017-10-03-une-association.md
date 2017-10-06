@@ -91,7 +91,7 @@ Tout accompagnement par l’URSCOP est payant. On aurait pu imaginer un système
 
 Il y a bien des avantages fiscaux à être une SCOP :
 
-* l’impôt sur les sociétés est calculé sur le résultat *après* la mise en réserve (contrairement aux autres sociétés à capitaux où le calcule a lieu avant) ;
+* l’impôt sur les sociétés est calculé sur le résultat *après* la mise en réserve (contrairement aux autres sociétés à capitaux où le calcul a lieu avant) ;
 * la « part travail » (portion du bénéfice reversée aux salariés) n’est pas comptée non plus.
 
 Ce système ressemble beaucoup à « il faut payer la CGSCOP pour économiser de l’impôt sur les sociétés »… avec aucun accompagnement, aide ou avantages en contrepartie.
