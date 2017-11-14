@@ -18,6 +18,11 @@ nouvelle-aquitaine:
   url: https://www.nouvelle-aquitaine.fr/
   location: France
   has_logo: false
+odi:
+  name: Open Data Institute
+  url: https://theodi.org/
+  location: United Kingdom
+  has_logo: false
 opendata-france:
   name: Open Data France
   url: http://www.opendatafrance.net/
