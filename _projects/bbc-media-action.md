@@ -7,7 +7,6 @@ labels:
   - Training
   - Web Development
 customer: bbcma
-highlights_order: 3
 current_stage: Mission Complete
 next_stage: Designing Next Course
 resources: null
