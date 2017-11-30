@@ -9,7 +9,9 @@ customer: odi
 highlights_order: 3
 current_stage: Kick-off
 next_stage: Design Sprint
-resources: null
+resources:
+  website: https://dtc-innovation.github.io/mind-the-gaps/
+  github: https://github.com/dtc-innovation/mind-the-gaps
 ---
 
 Mind the Gaps is an idea which originates both in the fact modern cities face inequality
