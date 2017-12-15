@@ -43,7 +43,7 @@ Cette démarche s’inscrit en complément de nos envies de générer des opport
 
 David émettait l’envie que notre action de sponsoring « soit du "temps" possible offert à d'autres ». Que ce temps d’apprentissage soit possible sans avoir à gagner assez d’argent pour en débloquer l’accès.
 
-On a vite fait de faire un pas de travers, d’adopter une posture de conquérant ou de [mansplainers][mansplaining]. On a vite fait de piétiner les gens avec nos bonnes intentions. Hasard des choses, Thomas était à la conférence tech [Write the Docs Europe][]. Ça lui a permis de valider l’hypothèse de sponsoriser des tickets diversité sur place.
+On a vite fait de faire un pas de travers, de [mecspliquer][] ou d’adopter une posture de conquérant. On a vite fait de piétiner les gens avec nos bonnes intentions. Hasard des choses, Thomas était à la conférence tech [Write the Docs Europe][]. Ça lui a permis de valider l’hypothèse de sponsoriser des tickets diversité sur place.
 
 [Regina](https://twitter.com/reginazabo) témoignait qu’elle avait changé de carrière pour travailler dans la tech justement qu'il n’y avait pas assez de femmes dans ce milieu. Son déclic a été de **voir un exemple qui lui montrait que c'était possible**.
 
@@ -104,7 +104,7 @@ Paradoxalement, on ne sait pas à quoi ressemblerait une conférence mixte, dive
 
 [Slack de dtc]: https://slack.dtc-innovation.org/
 [diversitytickets.org]: https://diversitytickets.org/
-[mansplaining]: https://fr.wikipedia.org/wiki/Mansplaining
+[mecspliquer]: https://fr.wiktionary.org/wiki/mecspliquer#fr
 [Travis Foundation]: http://travisfoundation.org/
 [Write the Docs Europe]: https://writethedocs.org/conf/eu/2017/
 [Women on Rails]: http://www.womenonrails.com/
