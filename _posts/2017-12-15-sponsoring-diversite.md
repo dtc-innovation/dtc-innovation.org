@@ -51,7 +51,7 @@ On a vite fait de faire un pas de travers, de [mecspliquer][] ou d’adopter une
 
 Hypothèse validée !
 
-![]({{ '/images/posts/2017/sponsoring/tweet-travis-foundation.png' | relative_url }})
+[![]({{ '/images/posts/2017/sponsoring/tweet-travis-foundation.png' | relative_url }})](https://twitter.com/travis_fnd/status/911165811368349696)
 
 # Aider quand on n’y connait rien
 On est aligné sur les intentions, entre nous et avec l’équipe organisatrice de Paris Web. Qu’en est-il de la traduction en actes ? Comment faire pour toucher des gens hors de nos cercles d’habitué·e·s ?
@@ -68,7 +68,7 @@ Avec la première piste, **on prenait un risque d’insérer nos propres biais**
 
 On nous avait recommandé plusieurs intermédiaires. Le contact direct avec le staff de [diversitytickets.org][] nous a pas mal influencé : on a aimé le fait qu’elles gèrent la sélection des candidat·e·s et qu’elles relaient le message au sein de leur réseau — en dehors des nôtres.
 
-![]({{ '/images/posts/2017/sponsoring/tweet-sponsoring.png' | relative_url }})
+[![]({{ '/images/posts/2017/sponsoring/tweet-sponsoring.png' | relative_url }})](https://twitter.com/oncletom/status/911218077622312961)
 
 # 6 tickets • 6 candidat·e·s
 
