@@ -14,6 +14,12 @@ body {
 a {
   @extend .link;
   @extend .blue;
+
+  &[rel~="external"]:after {
+    content: "🌎";
+    margin-left: .5em;
+    margin-right: .5em;
+  }
 }
 a:hover {
   @extend .dark-blue;

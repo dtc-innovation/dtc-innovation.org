@@ -1,9 +1,11 @@
 {% assign writings = include.writings %}
+
 <ul class="timeline">
   {% for post in writings %}
+  {% assign url = post.url | relative_url %}
+  {% assign redirect_url = post.redirect_to %}
   <li class="timeline__item" lang="{{ post.lang | default: 'en' }}">
-    <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-
+    <a href="{{ redirect_url | default: url }}"{% if redirect_url %} target="_blank" rel="external noopener"{% else %} rel="permalink"{% endif %}>{{ post.title }}</a>
 
     <time datetime="{{ post.date | date_to_xmlschema }}">
       {{ post.date | date: '%B %Y' }}

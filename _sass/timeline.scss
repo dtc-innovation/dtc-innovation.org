@@ -31,7 +31,8 @@ $timeline-dot-border-width: 2px;
       @extend .mt2;
     }
 
-    a[rel="permalink"] {
+    a[rel="permalink"],
+    a[rel~="external"] {
       font-weight: bold;
     }
 
