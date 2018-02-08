@@ -1,14 +1,13 @@
 ---
-name: Learning Node.js
+name: Javascript & Node.js
 short_description: |
-  Modern ways of writing web and non-web applications with the Node.js platform.
-
-  We also design a modern publishing workflow and authoring tooling.
+  Learning JavaScript and Node.js by doing. A playful publication readable
+  on the web, as an npm package and as a book.
 labels:
 - Publishing
 - Content Design
-highlights_order: null
-current_stage: Writing
+highlights_order: 2
+current_stage: Writing and workshops
 next_stage: Publisher review
 resources:
   github: https://github.com/oncletom/nodebook

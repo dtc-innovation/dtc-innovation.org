@@ -5,24 +5,45 @@ layout: base
 {% assign project_writings = site.posts | where: 'projects', page.slug %}
 
 <section class="full-page">
-  {% if page.short_description %}
-  <header class="hero">
-    <h2 class="subtitle">Our Value Proposition</h2>
+  <article>
+    <h2>{{ page.title }}</h2>
 
-    <p>{{ page.short_description }}</p>
-  </header>
-  {% endif %}
+    <p>
+      A <a href="{{ '/' | relative_url }}" rel="home">{{ site.title }}</a>
+      project
+      {% if customer %}
+      &nbsp;with <a href="{{ customer.url }}">{{ customer.name }}</a>
+      {% endif %}
+
+      {% assign collection = site.collections | where:'label','projects' | first %}
+      {% if page.resources %}
+        {% for resource_value in page.resources %}
+        {% assign resource_id = resource_value[0] %}
+        • <a href="{{ resource_value[1] }}" target="_blank">{{ collection.resources[resource_id] }}</a>
+        {% endfor %}
+      {% endif %}
+    </p>
+
+    <p>
+      <strong>Our value proposition</strong> •
+      {{ page.short_description }}
+    </p>
+
+    {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="">
+    {% endif %}
+  </article>
 
   {% unless project_writings == empty %}
   <nav class="container" id="project-writings">
-    <h2>Project Writings</h2>
+    <h2>Related Project Writings</h2>
 
     {% include writings/timeline.html writings=project_writings %}
   </nav>
   {% endunless %}
 
   <article>
-    <h2>About <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a> {{ page.name }}</h2>
+    <h2>About {{ page.name }}</h2>
 
     {{ page.content }}
   </article>

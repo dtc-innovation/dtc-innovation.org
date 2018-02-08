@@ -6,7 +6,7 @@ labels:
   - Open Data
   - User Research
   - Web Development
-highlights_order: 2
+highlights_order: null
 customer: etalab
 current_stage: User Research
 next_stage: Developing cost-efficient features
