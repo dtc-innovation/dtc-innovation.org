@@ -6,10 +6,9 @@
 $near-white: #fafafa;
 
 @import
+  '../node_modules/tachyons-sass/scss/_variables.scss',
   '../node_modules/tachyons-sass/scss/_normalize.scss',
   '../node_modules/tachyons-sass/scss/_box-sizing.scss',
-  '../node_modules/tachyons-sass/scss/_media-queries.scss',
-  '../node_modules/tachyons-sass/scss/_colors.scss',
   '../node_modules/tachyons-sass/scss/_typography.scss',
   '../node_modules/tachyons-sass/scss/_font-family.scss',
   '../node_modules/tachyons-sass/scss/_type-scale.scss',
