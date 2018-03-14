@@ -21,12 +21,12 @@ Pour la totalité du document, l’association “dtc innovation” sera désign
 
 - L’activité commerciale et les différentes actions de l’association “dtc” permettent la réalisation concrètes de ces projets. L’association “dtc” cherche à œuvrer en collaboration avec des organismes publics et des organisations privées en vue de pérenniser et d’autonomiser des projets exploratoires.
 - Les activités commerciales possibles sont (liste indicative non-exhaustive)
- - Accompagnement à la création de structure juridiques
- - Conception/développement de produits innovants
- - Maîtrise d’ouvrage de projets logiciels
- - Maîtrise d’œuvre de projets logiciels
- - Formation enfants et adultes
- - Prestation expertise logicielle
+  - Accompagnement à la création de structure juridiques
+  - Conception/développement de produits innovants
+  - Maîtrise d’ouvrage de projets logiciels
+  - Maîtrise d’œuvre de projets logiciels
+  - Formation enfants et adultes
+  - Prestation expertise logicielle
 
 # Article 2 : Membres
 
