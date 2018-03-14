@@ -21,12 +21,12 @@ Pour la totalité du document, l’association “dtc innovation” sera désign
 
 - L’activité commerciale et les différentes actions de l’association “dtc” permettent la réalisation concrètes de ces projets. L’association “dtc” cherche à œuvrer en collaboration avec des organismes publics et des organisations privées en vue de pérenniser et d’autonomiser des projets exploratoires.
 - Les activités commerciales possibles sont (liste indicative non-exhaustive)
- - Accompagnement à la création de structure juridiques
- - Conception/développement de produits innovants
- - Maîtrise d’ouvrage de projets logiciels
- - Maîtrise d’œuvre de projets logiciels
- - Formation enfants et adultes
- - Prestation expertise logicielle
+  - Accompagnement à la création de structure juridiques
+  - Conception/développement de produits innovants
+  - Maîtrise d’ouvrage de projets logiciels
+  - Maîtrise d’œuvre de projets logiciels
+  - Formation enfants et adultes
+  - Prestation expertise logicielle
 
 # Article 2 : Membres
 
@@ -103,11 +103,11 @@ Pour les articles 4.1 et 4.2 chaque décision est prise selon les modalités de 
 # Article 5 : Les ressources financière
 
 - Les ressources financières comprennent :
- - le produit de l’activité commerciale
- - le montant des cotisations
- - les subventions de l’Etat et des collectivités locales
- - donations des partenaires privés
- - ainsi que toutes ressources autorisées par la loi.
+  - le produit de l’activité commerciale
+  - le montant des cotisations
+  - les subventions de l’Etat et des collectivités locales
+  - donations des partenaires privés
+  - ainsi que toutes ressources autorisées par la loi.
 - Il est tenu une comptabilité faisant apparaître annuellement un compte de résultat, un bilan et une annexe, conformément aux dispositions du règlement du 16 février 1999 relatif aux modalités d'établissement des comptes annuels des associations et fondations.
 - La personne légalement responsable de la comptabilité de l’association est son Président. L’association se réserve le droit de faire appel à un comptable.
 
