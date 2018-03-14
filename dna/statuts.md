@@ -103,11 +103,11 @@ Pour les articles 4.1 et 4.2 chaque décision est prise selon les modalités de 
 # Article 5 : Les ressources financière
 
 - Les ressources financières comprennent :
- - le produit de l’activité commerciale
- - le montant des cotisations
- - les subventions de l’Etat et des collectivités locales
- - donations des partenaires privés
- - ainsi que toutes ressources autorisées par la loi.
+  - le produit de l’activité commerciale
+  - le montant des cotisations
+  - les subventions de l’Etat et des collectivités locales
+  - donations des partenaires privés
+  - ainsi que toutes ressources autorisées par la loi.
 - Il est tenu une comptabilité faisant apparaître annuellement un compte de résultat, un bilan et une annexe, conformément aux dispositions du règlement du 16 février 1999 relatif aux modalités d'établissement des comptes annuels des associations et fondations.
 - La personne légalement responsable de la comptabilité de l’association est son Président. L’association se réserve le droit de faire appel à un comptable.
 
