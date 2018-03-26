@@ -33,8 +33,8 @@ layout: base
     </header>
 
     <div class="cards">
-    {% assign team = site.data.team | sort: 'sort_order' %}
-    {% for person in site.data.team %}
+    {% assign team = site.data.team | sort: 'sort_order', 'first' %}
+    {% for person in team %}
     {% include team/card-in-list.html person=person id=person.id %}
     {% endfor %}
     </div>
