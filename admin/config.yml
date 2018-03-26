@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: dtc-innovation/dtc-innovation.github.io
+  repo: dtc-innovation/dtc-innovation.org
   branch: master
 
 media_folder: "images/uploads"
