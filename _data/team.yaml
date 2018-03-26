@@ -1,0 +1,35 @@
+- id: clementine
+  name: Clémentine
+  sort_order: 3
+  short_description: |
+    Product owner specialised in user research, health, cinema and social innovation.
+  what_makes_them_happy: Looking at the stars by night.
+  notable_fact: Cannot refrain herself having good ideas.
+  current_location: Montréal, Canada
+  main_education: Political Science Institute
+  github: ClementineHahn
+  twitter: ClementineHahn
+- id: david
+  name: David
+  sort_order: 1
+  short_description: |
+    Software engineer contributing to the Open Web with a
+    solid experience in startups, entrepreneurship and open education.
+  what_makes_them_happy: A cup of hot chocolate.
+  notable_fact: Can reimplement TCP/IP protocol in an afternoon.
+  current_location: Montréal, Canada
+  main_education: Computer Science
+  github: davidbruant
+  twitter: DavidBruant
+- id: thomas
+  name: Thomas
+  sort_order: 2
+  short_description: |
+    Full stack software designer with a crush for user interfaces,
+    scalable systems and personal development.
+  what_makes_them_happy: Walking in Nature.
+  notable_fact: I bake my own sourdough bread.
+  current_location: 🎒, France
+  main_education: Self taught
+  twitter: oncletom
+  github: oncletom

@@ -33,10 +33,9 @@ layout: base
     </header>
 
     <div class="cards">
-    {% for person_hash in site.data.team %}
-    {% assign id = person_hash[0] %}
-    {% assign person = person_hash[1] %}
-    {% include team/card-in-list.html person=person id=id %}
+    {% assign team = site.data.team | sort: 'sort_order' %}
+    {% for person in site.data.team %}
+    {% include team/card-in-list.html person=person id=person.id %}
     {% endfor %}
     </div>
   </section>
