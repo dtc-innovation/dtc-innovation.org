@@ -120,7 +120,7 @@ La réserve impartageable : un an de vie de l’association.
 
 Une charte est établie par les Membres Noyau de l’association. Ce document est destiné à fixer les divers points non prévus par les statuts, notamment ceux qui on trait à la gestion interne de l’association. Ce document peut être modifié lors d’une assemblée générale.
 
-La charte est consultable sur le Web sur [https://dtc-innovation.org/dna/statuts.html](charte.html).
+La charte est consultable sur le Web sur [https://dtc-innovation.org/dna/charte.html](charte.html).
 
 # Article 7 : Dissolution
 
