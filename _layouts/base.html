@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
   {% include head.html %}
   <body>
     <nav class="main-navigation">
       <ul>
-        {% assign pages = site.pages | where_exp: 'p', 'p.menu_title' | sort: 'menu_order' %}
+        {% assign pages = site.pages | where_exp: 'p', 'p.menu_title' | where_exp: 'p', 'p.lang == page.lang' | sort: 'menu_order' %}
         {% for p in pages %}
         {% assign menu_class = '' %}
         {% if p.url != '/' and page.url contains p.url %}{% assign menu_class = 'active' %}{% endif %}
@@ -13,11 +13,22 @@
           <a class="{{ menu_class }}" href="{{ p.url | relative_url }}">{{ p.menu_title }}</a>
         </li>
         {% endfor %}
+        {% if page.lang == 'fr' %}
+        <li class="last">
+          <a href="{{ '/en/' | relative_url }}">In English</a>
+        </li>
+        {% else %}
+        <li class="last">
+          <a href="{{ '/' | relative_url }}">en français</a>
+        </li>
+        {% endif %}
       </ul>
     </nav>
 
     {% include header.html %}
 
     {{content}}
+
+    {% include {{ page.lang }}/footer-contact.html %}
   </body>
 </html>

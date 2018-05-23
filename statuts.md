@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Statuts associatifs
-lang: fr
+permalink: /dna/statuts.html
 ---
 
 # Statuts - dtc innovation

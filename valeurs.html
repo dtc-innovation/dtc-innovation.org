@@ -1,0 +1,53 @@
+---
+title: Values, policies and company documentation.
+layout: page
+menu_order: 4
+menu_title: Valeurs
+permalink: /dna/
+---
+
+<p class="hero">
+  <em>dtc innovation</em> est une organisation sans capital et à but non-lucratif.
+</p>
+
+<h1>Valeurs</h1>
+
+<h2><em>Ad hoc</em></h2>
+
+<p>Nous mélangeons votre demande avec notre vision de votre project.</p>
+
+<h2>Ouverture</h2>
+
+<p><em>Open Source</em> est un choix par défaut. Nous essayons de créer des communs.</p>
+
+<h2>Exemplarité</h2>
+
+<p>Nous faisons ce que nous disons. Nous documentons ce que nous faisons. Nous le mettons en commun.</p>
+
+<h2>Bienveillance</h2>
+
+<p>Nous sommes à l'origine d'un cadre doux, protecteur et respectueux de nous-même.</p>
+
+<section>
+  <h1>Documentation</h1>
+
+  <p>
+    <em>dtc innovation</em> est une association de loi 1901
+    à <a href="https://www.service-public.fr/associations/vosdroits/F31838">caractère commercial</a> et à <a href="https://www.service-public.fr/associations/vosdroits/F34104">gestion intéressée</a>.
+  </p>
+
+  <h2>Éléments constitutifs</h2>
+
+  <ul>
+    <li><a href="{% link statuts.md %}">Statuts associatifs</a></li>
+  </ul>
+
+  <h2>Vie courante</h2>
+
+  <ol>
+  {% for decision in site.decisions  %}
+  <li><a href="{{ decision.url }}">{{ decision.title }}</a></li>
+  {% endfor %}
+  </ol>
+
+</section>

@@ -2,7 +2,7 @@
 title: Writings and open documentation about our projects
 permalink: /writings/
 layout: writings
-menu_title: Writings
+menu_title: Journal
 menu_order: 3
 ---
 

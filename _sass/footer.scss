@@ -1,6 +1,7 @@
 .page-footer {
-  @extend .f6;
+  @extend .bt;
+  @extend .bw3;
+  @extend .b--light-gray;
+  @extend .pt3;
   @extend .gray;
-  @extend .mt5;
-  @extend .tc;
 }

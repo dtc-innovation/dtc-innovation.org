@@ -1,17 +1,20 @@
 ---
 layout: base
 ---
-{% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+{% assign project_lang = 'projects_' | append: page.lang %}
+{% assign projects = site[project_lang] | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
 {% assign customers = site.data.customers %}
 
   <article class="hero">
     {{ content }}
 
+    {% comment%}
     <p>
       At the moment we work {% for project in projects %}
       on <a href="{{ project.url }}">{{ project.name | downcase }}</a> with <em>{{ customers[ project.customer ].name }}</em>, {% endfor %}
       just to name a few.
     </p>
+    {% endcomment %}
   </article>
 
   <section>
@@ -23,13 +26,13 @@ layout: base
     </div>
 
     <footer class="tc mv4">
-      <a href="{{ site.baseurl }}/projects/" class="btn btn--large">Discover all our projects…</a>
+      <a href="{{ site.baseurl }}/projects/" class="btn btn--large">{% t Discover all our projects %}</a>
     </footer>
   </section>
 
   <section>
     <header>
-      <h1>About us</h1>
+      <h1>{% t About us %}</h1>
     </header>
 
     <div class="cards">
@@ -39,5 +42,3 @@ layout: base
     {% endfor %}
     </div>
   </section>
-
-  {% include footer.html %}

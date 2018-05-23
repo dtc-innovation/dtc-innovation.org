@@ -30,9 +30,8 @@
     {% assign collection = site.collections | where:'label',project.collection | first %}
     {% if project.resources and features contains 'resources' %}
     <dt>Additional Resources</dt>
-      {% for resource_value in project.resources %}
-      {% assign resource_id = resource_value[0] %}
-      <dd class="same-def"><a href="{{ resource_value[1] }}" target="_blank">{{ collection.resources[resource_id] }}</a></dd>
+      {% for resource in project.resources %}
+      <dd class="same-def"><a href="{{ resource[1] }}" target="_blank">{{ resource[0] }}</a></dd>
       {% endfor %}
     {% endif %}
   </dl>

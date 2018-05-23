@@ -2,14 +2,12 @@
 title: Writings
 layout: base
 ---
+{% assign posts = site.posts | where_exp: 'p', 'p.lang == page.lang' %}
 
 <div class="hero">
   {{ content }}
 </div>
 
 <nav class="full-page">
-  {% include writings/timeline.html writings=site.posts %}
+  {% include writings/timeline.html writings=posts %}
 </nav>
-
-
-{% include footer.html %}

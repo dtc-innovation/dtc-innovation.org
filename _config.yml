@@ -5,17 +5,31 @@ baseurl: ""
 url: https://dtc-innovation.org
 
 permalink: /writings/:year/:title
+source_lang: en
+languages:
+  en: English
+  fr: Français
+translations:
+  fr:
+    About us: À propos
+    Discover all our projects: Découvrez tous nos projets
+    Your email address: Votre adresse e-mail
+    Subscribe: Inscription
 
+collections_dir: collections
 collections:
-  projects:
+  projects_en:
     output: true
-    permalink: /projects/:title
+    permalink: /en/projects/:title
     resources:
       github: GitHub Project
       website: Website
-  assemblies:
+  projects_fr:
     output: true
-    permalink: /dna/assemblies/:slug.html
+    permalink: /projects/:title
+  decisions:
+    output: true
+    permalink: /decisions/:year-:month-:day.html
 
 
 company:
@@ -32,16 +46,29 @@ defaults:
       type: "posts"
     values:
       layout: "writing"
+      lang: "fr"
   - scope:
       path: ""
-      type: "projects"
+      type: "projects_fr"
     values:
       layout: "project"
+      lang: "fr"
   - scope:
       path: ""
-      type: "assemblies"
+      type: "projects_en"
+    values:
+      layout: "project"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "decisions"
     values:
       layout: "page"
+      lang: "fr"
+  - scope:
+      path: ""
+    values:
+      lang: "fr"
 
 # Build settings
 markdown: kramdown
@@ -58,3 +85,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin

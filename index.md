@@ -1,10 +1,12 @@
 ---
 layout: home
 title: Project design, digital innovation, rapid prototyping and web engineering services.
-menu_title: Home
+menu_title: Accueil
 menu_order: 1
 ---
 
-We are a small _pluridisciplinary_ team who brings **human&ndash;centric design**, **web engineering expertise** and **collaborative practices** to your teams and products.
+Nous sommes une petite équipe multidisciplinaire et citoyenne.
+Nous nous asseyons à vos côtés pour **créer des produits numériques**,
+rendre votre **équipe autonome** et aller à la **rencontre de vos utilisateurs**.
 
-We love to craft meaningful projects, to take a step back and to empower the people we work with.
+Nous mettons ces projets en commun grâce à l'**open source** et à l'**open data**.

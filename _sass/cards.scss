@@ -1,11 +1,12 @@
 @import 'dtc';
 
 .cards {
-  @extend .cf;
-  @extend .w-100;
+  @extend .flex;
+  @extend .flex-row;
+  @extend .flex-wrap;
+  @extend .justify-center;
 
   .card {
-    @extend .fl-l;
     @extend .w-third-l;
 
     figure {
