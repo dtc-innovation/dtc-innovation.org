@@ -2,6 +2,10 @@
   @extend .tc-l;
   @extend .f1;
   @extend .f-5-l;
+
+  a {
+    @extend .no-underline;
+  }
 }
 
 .main-title + .subtitle {
