@@ -95,4 +95,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-multiple-languages-plugin
+  - jekyll-i18n_tags
