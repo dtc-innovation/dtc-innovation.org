@@ -11,7 +11,8 @@ customer: etalab
 current_stage: User Research
 next_stage: Developing cost-efficient features
 resources:
-  GitHub: https://github.com/etalab/user-research
+- name: GitHub
+  url: https://github.com/etalab/user-research
 ---
 
 We **design and develop** user facing features based on usage metrics and user interviews.

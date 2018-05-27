@@ -11,12 +11,18 @@ current_stage: Terminé
 next_stage: Répliquer dans un autre collectivité locale
 image: /images/projects/dataviz-gironde.png
 resources:
-  GitHub: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
-  Site web: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#'
-  Vu chez Etalab: https://avent.data.gouv.fr/2017/07.html
-  Outil de test des formules: https://davidbruant.github.io/formule-doc-budg/
-  Outil d'anonymisation des fichiers: https://github.com/dtc-innovation/anonymisation-document-budgetaire
-  Documentation du format <code>&lt;DocumentBudgetaire&gt;</code>: https://github.com/DavidBruant/colors-of-the-finances/blob/master/docs/format-fichier.md
+- name: GitHub
+  url: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
+- name: Site web
+  url: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#'
+- name: Vu chez Etalab
+  url: https://avent.data.gouv.fr/2017/07.html
+- name: Outil de test des formules
+  url: https://davidbruant.github.io/formule-doc-budg/
+- name: Outil d'anonymisation des fichiers
+  url: https://github.com/dtc-innovation/anonymisation-document-budgetaire
+- name: Documentation du format <code>&lt;DocumentBudgetaire&gt;</code>
+  url: https://github.com/DavidBruant/colors-of-the-finances/blob/master/docs/format-fichier.md
 ---
 
 Nous avons **développé et designé** une _datavisualisation open source_

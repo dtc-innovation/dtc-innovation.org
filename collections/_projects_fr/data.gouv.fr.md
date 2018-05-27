@@ -11,9 +11,12 @@ customer: etalab
 current_stage: En pause
 image: /images/projects/datagouv.png
 resources:
-  GitHub: https://github.com/opendatateam/udata
-  Site web: https://www.data.gouv.fr
-  Recherche utilisateurs: https://github.com/etalab/user-research
+- name: GitHub
+  url: https://github.com/opendatateam/udata
+- name: Site web
+  url: https://www.data.gouv.fr
+- name: Recherche utilisateurs
+  url: https://github.com/etalab/user-research
 ---
 
 Nous améliorons la qualité de l'expérience utilisateur du portail

@@ -14,10 +14,10 @@ layout: base
         <a href="{{ customer.url }}">{{ customer.name }}</a>.<br>
       {% endif %}
 
-      {% if page.resources %}
+      {% if page.resources.size %}
         👀 <strong>{% t Additional Resources %}</strong>
         {% for resource in page.resources %}
-        • <a href="{{ resource[1] }}" target="_blank">{{ resource[0] }}</a>
+        • <a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>
         {% endfor %}
         <br>
       {% endif %}

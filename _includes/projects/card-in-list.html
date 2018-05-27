@@ -28,10 +28,10 @@
     {% endif %}
 
     {% assign collection = site.collections | where:'label',project.collection | first %}
-    {% if project.resources and features contains 'resources' %}
+    {% if project.resources.size and features contains 'resources' %}
     <dt>{% t Additional Resources %}</dt>
       {% for resource in project.resources %}
-      <dd class="same-def"><a href="{{ resource[1] }}" target="_blank">{{ resource[0] }}</a></dd>
+      <dd class="same-def"><a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a></dd>
       {% endfor %}
     {% endif %}
   </dl>

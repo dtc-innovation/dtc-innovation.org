@@ -12,9 +12,12 @@ image: /images/projects/mind-the-gaps.jpg
 current_stage: Prototyping
 next_stage: Wrap up of Phase 1
 resources:
-  Website: https://mind-the-gaps.org/
-  Research Website: https://mind-the-gaps.org/research/
-  GitHub: https://github.com/dtc-innovation/mind-the-gaps
+- name: Website
+  url: https://mind-the-gaps.org/
+- name: Research Website
+  url: https://mind-the-gaps.org/research/
+- name: GitHub
+  url: https://github.com/dtc-innovation/mind-the-gaps
 ---
 
 Mind the Gaps is an idea which originates both in the fact modern cities face inequality

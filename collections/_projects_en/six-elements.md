@@ -11,8 +11,10 @@ current_stage: Prototype
 customer: nouvelle-aquitaine
 next_stage:
 resources:
-  GitHub: https://github.com/6elements
-  Website: https://6elements.fr
+- name: GitHub
+  url: https://github.com/6elements
+- name: Website
+  url: https://6elements.fr
 ---
 
 We **design and prototype** open hardware sensors and web applications to help recycling centers to scale and anticipate their waste collection logistics.
