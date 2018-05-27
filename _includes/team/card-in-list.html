@@ -4,18 +4,19 @@
   </figure>
 
   <h2>{{ person.name }}</h2>
+  {% assign details = person[ page.lang ] %}
 
   <dl class="def-as-list">
-    <dt class="hidden-from-ui">Fluent In</dt>
-    <dd class="main">{{ person.short_description }}</dd>
+    <dt class="hidden-from-ui">{% t Fluent In %}</dt>
+    <dd class="main">{{ details.short_description }}</dd>
 
-    <dt>What Makes Them Happy</dt>
-    <dd>{{ person.what_makes_them_happy }}</dd>
+    <dt>{% t What Makes Them Happy %}</dt>
+    <dd>{{ details.what_makes_them_happy }}</dd>
 
-    <dt>Notable Fact</dt>
-    <dd>{{ person.notable_fact }}</dd>
+    <dt>{% t Notable Fact %}</dt>
+    <dd>{{ details.notable_fact }}</dd>
 
-    <dt>Current Location</dt>
-    <dd>{{ person.current_location }}</dd>
+    <dt>{% t Current Location %}</dt>
+    <dd>{{ details.current_location }}</dd>
   </dl>
 </article>

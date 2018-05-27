@@ -10,8 +10,8 @@ customer: cd33
 highlights_order: 1
 current_stage: Opening up local gov financial data
 resources:
-  github: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
-  website: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#'
+  GitHub: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
+  Website: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#'
 ---
 
 We **design and develop** _open source software_ and _graphic materials_ for the Gironde county in order to illustrate their annual budget and financial report.

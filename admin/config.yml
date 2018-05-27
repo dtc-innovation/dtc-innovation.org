@@ -1,18 +1,24 @@
 ---
 ---
 
+display_url: https://dtc-innovation.org
 backend:
   name: github
   repo: dtc-innovation/dtc-innovation.org
-  branch: master
+slug:
+  encoding: ascii
+  clean_accents: true
+editor:
+  preview: true
 
 media_folder: "images/uploads"
 # publish_mode: editorial_workflow
 
 collections:
   - name: "writing"
-    label: "Writings"
-    folder: "_posts"
+    label: "Journal"
+    label_singular: "entry"
+    folder: "collections/_posts"
     sort: "date:desc"
     create: true
     slug: "{% raw %}{{year}}-{{month}}-{{day}}-{{slug}}{% endraw %}"
@@ -51,56 +57,132 @@ collections:
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD hh:mm:ss"
-  - name: "project"
-    label: "Projects"
-    folder: "_projects" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - label: "Name"
+  - name: "decision"
+    label: "Décisions"
+    label_singular: "decision"
+    folder: "collections/_decisions"
+    sort: "date:desc"
+    create: true
+    slug: "{% raw %}{{year}}-{{month}}-{{day}}{% endraw %}"
+    fields:
+      - label: "Titre"
+        name: "title"
+        tagname: "h1"
+        widget: "string"
+      - label: "Décision(s)"
+        name: "body"
+        widget: "markdown"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD hh:mm:ss"
+  - name: "project_fr"
+    label: "Projets (Français)"
+    label_singular: "project"
+    folder: "collections/_projects_fr"
+    create: true
+    fields:
+      - label: "Nom du projet"
         name: "name"
         widget: "string"
         tagname: "h1"
-      - label: "Short Description"
+      - label: "Proposition de valeur"
         name: "short_description"
         widget: "string"
       - label: "Body"
         name: "body"
         widget: "markdown"
-      - label: "Cover image"
+      - label: "Image de couverture"
         name: image
         widget: "image"
         required: false
-      - label: "Customer"
+      - label: "Client"
         name: "customer"
         widget: "select"
         options: ["", {% for d in site.data.customers %}{{ d[0] | jsonify }},{% endfor %}]
         required: false
-      - label: "Labels"
+      - label: "Mots-clés"
         name: "labels"
         widget: "list"
         required: false
-      - label: "Highlight Order"
+      - label: "Ordre d'affichage"
         name: "highlights_order"
         widget: "number"
         required: false
-      - label: "Current Stage"
+      - label: "Étape d'avancement"
         name: "current_stage"
         widget: "string"
         required: false
-      - label: "Next Stage"
+      - label: "Prochaine étape"
         name: "next_stage"
         widget: "string"
         required: false
-      - label: "Resources"
+      - label: "Ressources"
         name: "resources"
-        widget: "object"
+        widget: "list"
         required: false
+        allow_add: true
         fields:
-          - label: "GitHub"
-            name: "github"
+          - label: "Nom"
+            name: "name"
             widget: "string"
-            required: false
-          - label: "Website"
-            name: "website"
+            required: true
+          - label: "URL"
+            name: "url"
             widget: "string"
-            required: false
+            required: true
+  - name: "project_en"
+    label: "Projets (Anglais)"
+    label_singular: "project"
+    folder: "collections/_projects_en"
+    create: true
+    fields:
+      - label: "Nom du projet"
+        name: "name"
+        widget: "string"
+        tagname: "h1"
+      - label: "Proposition de valeur"
+        name: "short_description"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+      - label: "Image de couverture"
+        name: image
+        widget: "image"
+        required: false
+      - label: "Client"
+        name: "customer"
+        widget: "select"
+        options: ["", {% for d in site.data.customers %}{{ d[0] | jsonify }},{% endfor %}]
+        required: false
+      - label: "Mots-clés"
+        name: "labels"
+        widget: "list"
+        required: false
+      - label: "Ordre d'affichage"
+        name: "highlights_order"
+        widget: "number"
+        required: false
+      - label: "Étape d'avancement"
+        name: "current_stage"
+        widget: "string"
+        required: false
+      - label: "Prochaine étape"
+        name: "next_stage"
+        widget: "string"
+        required: false
+      - label: "Ressources"
+        name: "resources"
+        widget: "list"
+        required: false
+        allow_add: true
+        fields:
+          - label: "Nom"
+            name: "name"
+            widget: "string"
+            required: true
+          - label: "URL"
+            name: "url"
+            widget: "string"
+            required: true

@@ -1,9 +1,10 @@
 ---
-title: Innovation projects
+title: Projets web, open source et open data sur lesquels nous avons pris plaisir à travailler
 permalink: /projects/
 layout: projects
-menu_title: Projects
+menu_title: Projets
 menu_order: 2
 ---
 
-We love working on meaningful projects which transfered to the _commons_ as open source, open data and open documentation materials.
+Nous adorons comprendre votre métier, travailler le sens des projets
+et composer en fonction de vos priorités.

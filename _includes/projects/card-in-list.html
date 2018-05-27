@@ -6,11 +6,11 @@
   </h2>
 
   <dl class="def-as-list">
-    <dt class="hidden-from-ui">Summary</dt>
+    <dt class="hidden-from-ui">{% t Summary %}</dt>
     <dd class="main">{{ project.short_description }}</dd>
 
     {% if project.customer and features contains 'customer' %}
-    <dt>With Whom?</dt>
+    <dt>{% t With Whom? %}</dt>
     <dd>
       {% assign customer = site.data.customers[project.customer] %}
       <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
@@ -18,21 +18,20 @@
     {% endif %}
 
     {% if features contains 'current-stage' %}
-    <dt>Current Stage</dt>
+    <dt>{% t Current Stage %}</dt>
     <dd>{{ project.current_stage }}</dd>
     {% endif %}
 
     {% if project.next_stage and features contains 'next-stage' %}
-    <dt>Next Stage</dt>
+    <dt>{% t Next Stage %}</dt>
     <dd>{{ project.next_stage }}</dd>
     {% endif %}
 
     {% assign collection = site.collections | where:'label',project.collection | first %}
     {% if project.resources and features contains 'resources' %}
-    <dt>Additional Resources</dt>
-      {% for resource_value in project.resources %}
-      {% assign resource_id = resource_value[0] %}
-      <dd class="same-def"><a href="{{ resource_value[1] }}" target="_blank">{{ collection.resources[resource_id] }}</a></dd>
+    <dt>{% t Additional Resources %}</dt>
+      {% for resource in project.resources %}
+      <dd class="same-def"><a href="{{ resource[1] }}" target="_blank">{{ resource[0] }}</a></dd>
       {% endfor %}
     {% endif %}
   </dl>

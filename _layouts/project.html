@@ -9,23 +9,20 @@ layout: base
     <h2>{{ page.title }}</h2>
 
     <p>
-      A <a href="{{ '/' | relative_url }}" rel="home">{{ site.title }}</a>
-      project
       {% if customer %}
-      &nbsp;with <a href="{{ customer.url }}">{{ customer.name }}</a>
+        🙌 {% t A project conducted with %}
+        <a href="{{ customer.url }}">{{ customer.name }}</a>.<br>
       {% endif %}
 
-      {% assign collection = site.collections | where:'label','projects' | first %}
       {% if page.resources %}
-        {% for resource_value in page.resources %}
-        {% assign resource_id = resource_value[0] %}
-        • <a href="{{ resource_value[1] }}" target="_blank">{{ collection.resources[resource_id] }}</a>
+        👀 <strong>{% t Additional Resources %}</strong>
+        {% for resource in page.resources %}
+        • <a href="{{ resource[1] }}" target="_blank">{{ resource[0] }}</a>
         {% endfor %}
+        <br>
       {% endif %}
-    </p>
 
-    <p>
-      <strong>Our value proposition</strong> •
+      🗣 <strong>{% t Our value proposition %}</strong> •
       {{ page.short_description }}
     </p>
 
@@ -36,17 +33,15 @@ layout: base
 
   {% unless project_writings == empty %}
   <nav class="container" id="project-writings">
-    <h2>Related Project Writings</h2>
+    <h2>{% t Related Project Writings %}</h2>
 
     {% include writings/timeline.html writings=project_writings %}
   </nav>
   {% endunless %}
 
   <article>
-    <h2>About {{ page.name }}</h2>
+    <h2>{% t About %} {{ page.name }}</h2>
 
     {{ page.content }}
   </article>
 </section>
-
-{% include footer.html %}

@@ -1,3 +1,8 @@
+.input {
+  @extend .pv1;
+  @extend .ph2;
+}
+
 .btn {
   @extend .dib;
   @extend .bg-white;
@@ -8,7 +13,7 @@
   @extend .hover-bg-blue;
   @extend .hover-white;
   @extend .br2;
-  @extend .pa1;
+  @extend .pa2;
 
   cursor: pointer;
 

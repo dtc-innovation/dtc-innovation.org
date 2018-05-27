@@ -10,8 +10,8 @@ highlights_order: 2
 current_stage: Writing and workshops
 next_stage: Publisher review
 resources:
-  github: https://github.com/oncletom/nodebook
-  website: https://oncletom.io/node.js/
+  GitHub: https://github.com/oncletom/nodebook
+  Website: https://oncletom.io/node.js/
 ---
 
 We **design and author** a programming book about the **Node.js platform** with France's #1 programming publishing house [Eyrolles][eyrolles].

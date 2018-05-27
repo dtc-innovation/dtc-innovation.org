@@ -4,7 +4,9 @@ option[value=""] {
 
 form {
   @extend .cf;
-  @extend .w-100;
+  @extend .flex;
+  @extend .justify-center;
+  @extend .items-center;
 
   input {
     @extend .ba;
@@ -12,21 +14,16 @@ form {
   }
 
   .input-group {
-    @extend .fl-ns;
     @extend .mr4;
     @extend .mb3;
     @extend .mb0-ns;
 
     label {
       @extend .black;
-      @extend .db;
       @extend .mb1;
 
       cursor: pointer;
+      vertical-align: middle;
     }
-  }
-
-  > .btn {
-    @extend .pa2;
   }
 }
