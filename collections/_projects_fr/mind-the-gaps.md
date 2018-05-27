@@ -1,7 +1,7 @@
 ---
 name: Mind the Gaps
 short_description: >
-  Mesure des inégalités dans les villes selon un point de vue citoyen et inclusif.
+  Mesurer la qualité de vie et le bien-être des quartiers avec une démarche citoyenne et inclusive.
 labels:
   - Prototype
   - Open Data
@@ -17,17 +17,42 @@ resources:
   GitHub: https://github.com/dtc-innovation/mind-the-gaps
 ---
 
-Mind the Gaps is an idea which originates both in the fact modern cities face inequality
-gaps and the lack of context prevents city services to join their efforts to efficiently
-address these gaps. For example in the city of Bristol, women die 12 years earlier in some
-neighbourhoods than they might in more prosperous areas, mostly because of an inadequate access
-to services and informations.
+L'idée de **Mind the Gaps** est née de la rencontre avec la Mairie de Bristol.
+Ils cherchaient à trouver des solutions face aux inégalités de leurs habitant·e·s.
 
-Minds the Gaps is an open source web visualisation interface which aim at highlighting
-major inequality gaps as data narratives by showing where they happen, where the problem-solving
-resources are and what is the pathway between them all — and their lack of.
+En réponse, nous avons conçu une approche inclusive pour quantifier des données qualitatives liées à l'expérience de vie dans les quartiers des villes.
 
-Minds the Gaps ambitions is to be showcased in public spaces like the Bristol Data Dome to
-decision makers from various city services, communities and charities to acknowledge the
-issues, with whom to connect to address them and to effectively engage a dialogue in this
-very same space.
+# Un collectif multidisciplinaire
+
+L'équipe du projet s'est construite de manière ad-hoc : designer, développeur, facilitateur et UX designer.
+
+Des invitations ont été lancées à des journalistes du Sunday Times et de la London School of Economics.
+
+![]({{ 'images/projects/mind-the-gaps/2018-02-08-mind-the-gaps-ecosystem.png' | relative_url }})
+
+
+# Une méthode pour designer des questionnaires
+
+Nous avons choisi une approche terrain pour refléter les réalités et la complexité qui constituent les forces et les faiblesses des quartiers.
+
+La création d'un questionnaire de qualité de vie se fait en plusieurs étapes :
+
+1. entretiens semi-directifs pour sonder les joies et les peines des habitant·e·s ;
+2. constitution de questionnaires ;
+3. le questionnaire papier est dérivé de la version en ligne ;
+4. test des questionnaires en présentiel ;
+5. collecte des données.
+
+![]({{ 'images/projects/mind-the-gaps/slide-09.png' | relative_url }})
+
+Nous veillons à créer de bonnes conditions pour tous les entretiens :
+
+- pas de signifiant social (aka pas d'entretien sur ordinateur en zone fragile)
+- questionnaire papier pour les personnes qui ne sont pas à l'aise ou ne peuvent pas utiliser un ordinateur
+- les mots utilisés sont ceux des habitant·e·s — ce ne sont pas les nôtres
+
+# Des données qualitatives pour mieux comprendre
+
+![]({{ 'images/projects/mind-the-gaps/slide-13.png' | relative_url }})
+
+Les enquêtes conversationnelles permettent de dresser un portrait des quartiers dans la durée.

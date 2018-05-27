@@ -1,7 +1,7 @@
 ---
 name: Datavisualisation des données budgétaires
 short_description: >
-  Comprendre d'où vient l'argent du Département et où il est investi.
+  Rendre accessibles les recettes et investissements du Département.
 labels:
   - Datavisualisation
   - Open Data
@@ -9,30 +9,43 @@ customer: cd33
 highlights_order: 1
 current_stage: Terminé
 next_stage: Répliquer dans un autre collectivité locale
+image: /images/projects/dataviz-gironde.png
 resources:
   GitHub: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
   Site web: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#'
   Vu chez Etalab: https://avent.data.gouv.fr/2017/07.html
+  Outil de test des formules: https://davidbruant.github.io/formule-doc-budg/
+  Outil d'anonymisation des fichiers: https://github.com/dtc-innovation/anonymisation-document-budgetaire
+  Documentation du format <code>&lt;DocumentBudgetaire&gt;</code>: https://github.com/DavidBruant/colors-of-the-finances/blob/master/docs/format-fichier.md
 ---
 
-We **design and develop** _open source software_ and _graphic materials_ for the Gironde county in order to illustrate their annual budget and financial report.
+Nous avons **développé et designé** une _datavisualisation open source_
+avec la Direction des Finances du Département de la Gironde (33, France).
 
-The aim is to deliver a **reusable and editorialised datavisualisation** based on an open dataset.
+L'intention est de rendre compréhensible les comptes administratifs du Département et aussi de les rendre navigable au centime près sur plusieurs années.
 
-### Public Budget Parser
+L'application web est open source, intégrable dans n'importe quel site web et réplicable pour toutes les collectivités locales de France.
 
-French counties publish their annual budget and financial report under the **M52 standard**. We designed it to be a **standalone NodeJS and JavaScript library**.
+### Documentation du format `<DocumentBudgetaire>`
 
-We use the M52 library to **validate**, to **lint** and to help the department of finance **to improve the quality of the dataset**.
+Les budgets et comptes administratifs des collectivités françaises (communes, départements et régions) sont transmis au Ministère de l'Intérieur par le biais de fichiers au format _DocumentBudgétaire_.
 
-### Editorial Focus
+Nous avons élaboré une documentation pour mieux les comprendre.
 
-We organise **user testing sessions** to get an understanding of possible audience expectations and to validate a few hypothesis.
+![]({{ 'images/projects/gironde-dataviz/documentbudgetaire-doc.png' | relative_url }})
 
-We facilitate **focus groups** with county agents to reflect their mission and financial report in order to match user expectations.
+### Vue éditoriale et vue navigable
 
-### Datavisualisation Components
+L'application offre deux modes de navigation :
 
-We use **React** and the **Redux** pattern to drive the user interface with data and user interactions.
+1. **navigation éditoriale** : les chiffres sont mis en contexte, notamment pour expliquer les variations annuelles ;
+2. **navigation exhaustive** : nous pouvons explorer les postes de dépenses et de recettes jusqu'au centime près.
 
-Editorial content is managed with a collaborative spreadsheet which becomes a datasource of the React application.
+Cette dernière navigation est impartiale : nous naviguons dans les données telles qu'elles sont communiquées au Ministère de l'Intérieur.
+
+### Une application web React/Redux
+
+Le projet a été conçu comme une application **React**.
+Elle suit le _design pattern_ **Redux** pour signaler les changements d'état et réagir de manière performante.
+
+L'application est ensuite déployée et intégrée dans le CMS Drupal.
