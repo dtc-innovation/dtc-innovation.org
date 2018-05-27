@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Project design, digital innovation, rapid prototyping and web engineering services.
+title: Développement web, prototypage d'applications, UX design, facilitation de projet et agilité, recherche et entretiens utilisateurs, documentation technique, open data et open source.
 menu_title: Accueil
 menu_order: 1
 ---

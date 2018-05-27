@@ -8,7 +8,7 @@ layout: base
   <article class="hero">
     {{ content }}
 
-    {% comment%}
+    {% comment %}
     <p>
       At the moment we work {% for project in projects %}
       on <a href="{{ project.url }}">{{ project.name | downcase }}</a> with <em>{{ customers[ project.customer ].name }}</em>, {% endfor %}
@@ -25,9 +25,11 @@ layout: base
     {% endfor %}
     </div>
 
+    {% if projects.size > 3 %}
     <footer class="tc mv4">
       <a href="{{ site.baseurl }}/projects/" class="btn btn--large">{% t Discover all our projects %}</a>
     </footer>
+    {% endif %}
   </section>
 
   <section>

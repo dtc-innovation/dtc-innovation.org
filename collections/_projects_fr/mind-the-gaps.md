@@ -1,18 +1,19 @@
 ---
 name: Mind the Gaps
 short_description: >
-  Materializing inequalities, citizen sensing and urban resilience.
+  Mesure des inégalités dans les villes selon un point de vue citoyen et inclusif.
 labels:
   - Prototype
   - Open Data
-  - User Research
+  - Recherche utilisateurs
 customer: odi
 highlights_order: 3
 image: /images/projects/mind-the-gaps.jpg
-current_stage: Prototyping
-next_stage: Wrap up of Phase 1
+current_stage: Documentation de la phase 1
+next_stage: Présentation au sommet Open Data France/Angleterre
 resources:
   Site Web: https://mind-the-gaps.org/fr/
+  Recherche utilisateurs: https://mind-the-gaps.org/research/
   GitHub: https://github.com/dtc-innovation/mind-the-gaps
 ---
 

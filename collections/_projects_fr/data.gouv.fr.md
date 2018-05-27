@@ -1,17 +1,18 @@
 ---
 name: data.gouv.fr
 short_description: |
-  Improve France's Open Data platform with a better user experience.
+  Améliorer l'expérience utilisateur de la plate-forme open data de l'État.
 labels:
   - Open Data
-  - User Research
-  - Web Development
+  - Recherche utilisateurs
+  - Développement web
 highlights_order: 2
 customer: etalab
-current_stage: User Research
-next_stage: Developing cost-efficient features
+current_stage: En pause
 resources:
-  GitHub: https://github.com/etalab/user-research
+  GitHub: https://github.com/opendatateam/udata
+  Site web: https://www.data.gouv.fr
+  Recherche utilisateurs: https://github.com/etalab/user-research
 ---
 
 We **design and develop** user facing features based on usage metrics and user interviews.

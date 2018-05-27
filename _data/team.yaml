@@ -1,35 +1,53 @@
 - id: clementine
   name: Clémentine
   sort_order: 3
-  short_description: |
-    Product owner specialised in user research, health, cinema and social innovation.
-  what_makes_them_happy: Looking at the stars by night.
-  notable_fact: Cannot refrain herself having good ideas.
-  current_location: Montréal, Canada
-  main_education: Political Science Institute
+  en:
+    short_description: |
+      Product owner specialised in user research, health, cinema and social innovation.
+    what_makes_them_happy: Looking at the stars by night.
+    notable_fact: Cannot refrain herself having good ideas.
+    current_location: Montréal, Canada
+  fr:
+    short_description: |
+      UX Designer et facilitatrice de projets.
+    what_makes_them_happy: Lever les yeux vers les étoiles.
+    notable_fact: Je fais parler les bonnes personnes entre elles.
+    current_location: Montréal, Canada
   github: ClementineHahn
   twitter: ClementineHahn
 - id: david
   name: David
   sort_order: 1
-  short_description: |
-    Software engineer contributing to the Open Web with a
-    solid experience in startups, entrepreneurship and open education.
-  what_makes_them_happy: A cup of hot chocolate.
-  notable_fact: Can reimplement TCP/IP protocol in an afternoon.
-  current_location: Montréal, Canada
-  main_education: Computer Science
+  en:
+    short_description: |
+      Software engineer contributing to the Open Web with a
+      solid experience in startups, entrepreneurship and open education.
+    what_makes_them_happy: A cup of hot chocolate.
+    notable_fact: Can reimplement TCP/IP protocol in an afternoon.
+    current_location: Bordeaux, France
+  fr:
+    short_description: |
+      Ingénieur, formateur et facilitateur de projets numériques.
+    what_makes_them_happy: Une bonne tasse de chocolat chaud.
+    notable_fact: Je peux réimplémenter le protocole TCP/IP en une après-midi.
+    current_location: Bordeaux, France
   github: davidbruant
   twitter: DavidBruant
 - id: thomas
   name: Thomas
   sort_order: 2
-  short_description: |
-    Full stack software designer with a crush for user interfaces,
-    scalable systems and personal development.
-  what_makes_them_happy: Walking in Nature.
-  notable_fact: I bake my own sourdough bread.
-  current_location: 🎒, France
-  main_education: Self taught
+  en:
+    short_description: |
+      Full stack software designer with a crush for user interfaces,
+      scalable systems and personal development.
+    what_makes_them_happy: Walking in Nature.
+    notable_fact: I bake my own sourdough bread.
+    current_location: 🎒, France
+  fr:
+    short_description: |
+      Développeur, UX designer et facilitateur de projets numériques.
+    what_makes_them_happy: Planter la tente dans un parc naturel.
+    notable_fact: Je fais du pain artisanal.
+    current_location: Moitié sud de la France (itinérant)
   twitter: oncletom
   github: oncletom

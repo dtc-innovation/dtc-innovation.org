@@ -1,17 +1,18 @@
 ---
-name: Public Finance Transparency
+name: Datavisualisation des données budgétaires
 short_description: >
-  Provide a lean and empowering access of the public budget to citizens and
-  local administration.
+  Comprendre d'où vient l'argent du Département et où il est investi.
 labels:
-  - User Interfaces
+  - Datavisualisation
   - Open Data
 customer: cd33
 highlights_order: 1
-current_stage: Opening up local gov financial data
+current_stage: Terminé
+next_stage: Répliquer dans un autre collectivité locale
 resources:
   GitHub: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
   Site web: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#'
+  Vu chez Etalab: https://avent.data.gouv.fr/2017/07.html
 ---
 
 We **design and develop** _open source software_ and _graphic materials_ for the Gironde county in order to illustrate their annual budget and financial report.

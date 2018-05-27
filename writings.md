@@ -1,9 +1,9 @@
 ---
-title: Writings and open documentation about our projects
+title: Publications et documentation ouverte de nos projets
 permalink: /writings/
 layout: writings
 menu_title: Journal
 menu_order: 3
 ---
 
-Our writings document our **thoughts**, **research findings** and **project updates**. Happy reading!
+Les articles qui suivent documentent nos **réflexions**, nos **actions**<br>et le **fruit de nos travaux**.
