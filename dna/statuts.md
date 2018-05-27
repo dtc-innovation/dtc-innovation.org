@@ -62,7 +62,7 @@ Se référer à la Charte afin de connaître la liste à jour des autres catégo
 
 ### 3.2.1 Processus de décision
 
-- Sauf mention contraire, toutes les décisions sont prises au consensus par toutes les parties prenantes de la décision.
+- Sauf mention contraire, toutes les décisions sont prises au consentement par toutes les parties prenantes de la décision.
 - En cas de conflit sur la liste exacte des parties prenantes, les Membres Noyau décident de la liste exacte au consensus.
 - En cas d’échec du consensus, la décision sera prise par un vote à la majorité des votes exprimés. Le vote blanc compte comme un vote exprimé.
 - Le quorum est aux deux-tiers des parties prenantes.
