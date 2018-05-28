@@ -31,15 +31,14 @@ collections:
   projects_en:
     output: true
     permalink: /en/projects/:title
-    resources:
-      github: GitHub Project
-      website: Website
   projects_fr:
     output: true
     permalink: /projects/:title
   decisions:
     output: true
     permalink: /decisions/:year-:month-:day.html
+  customers:
+    output: false
 
 
 company:
