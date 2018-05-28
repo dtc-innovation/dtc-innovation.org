@@ -1,5 +1,6 @@
 ---
-name: Etalab
-url: https://www.etalab.gouv.fr/
+uid: etalab
+title: Etalab
+website: https://www.etalab.gouv.fr/
 location: France
 ---

@@ -1,5 +1,6 @@
 ---
-name: Open Data Institute
-url: https://theodi.org/
+uid: odi
+title: Open Data Institute
+website: https://theodi.org/
 location: United Kingdom
 ---

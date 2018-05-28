@@ -3,18 +3,9 @@ layout: base
 ---
 {% assign project_lang = 'projects_' | append: page.lang %}
 {% assign projects = site[project_lang] | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
-{% assign customers = site.data.customers %}
 
   <article class="hero">
     {{ content }}
-
-    {% comment %}
-    <p>
-      At the moment we work {% for project in projects %}
-      on <a href="{{ project.url }}">{{ project.name | downcase }}</a> with <em>{{ customers[ project.customer ].name }}</em>, {% endfor %}
-      just to name a few.
-    </p>
-    {% endcomment %}
   </article>
 
   <section>

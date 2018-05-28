@@ -12,8 +12,8 @@
     {% if project.customer and features contains 'customer' %}
     <dt>{% t With Whom? %}</dt>
     <dd>
-      {% assign customer = site.data.customers[project.customer] %}
-      <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
+      {% assign customer = site.customers | where: "uid", project.customer | first %}
+      <a href="{{ customer.website }}" target="_blank">{{ customer.title }}</a>
     </dd>
     {% endif %}
 

@@ -50,8 +50,11 @@ collections:
         required: false
       - label: "Linked Project"
         name: "projects"
-        widget: "select"
-        options: ["", {% for d in site.projects %}{{ d.slug | jsonify }},{% endfor %}]
+        widget: "relation"
+        collection: "project_fr"
+        valueField: "name"
+        displayFields: ["name", "customer"]
+        searchFields: ["name", "short_description"]
         required: false
       - label: "Publish Date"
         name: "date"
@@ -76,6 +79,28 @@ collections:
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD hh:mm:ss"
+  - name: "customer"
+    label: "Clients"
+    label_singular: "customer"
+    folder: "collections/_customers"
+    sort: "name:asc"
+    create: true
+    fields:
+      - label: "Nom"
+        name: "title"
+        tagname: "h1"
+        widget: "string"
+      - label: "Identifiant"
+        name: "uid"
+        widget: "string"
+        pattern: ["[a-zA-Z0-9-]+", "Uniquement des lettres, chiffres et trait d'union."]
+      - label: "Site web"
+        name: "website"
+        widget: "string"
+      - label: "Pays"
+        name: "location"
+        widget: "select"
+        options: ["France", "Canada", "Royaume-Uni"]
   - name: "project_fr"
     label: "Projets (Français)"
     label_singular: "project"
@@ -98,8 +123,11 @@ collections:
         required: false
       - label: "Client"
         name: "customer"
-        widget: "select"
-        options: ["", {% for d in site.data.customers %}{{ d[0] | jsonify }},{% endfor %}]
+        widget: "relation"
+        collection: "customer"
+        displayFields: ["name"]
+        searchFields: ["name", "url"]
+        valueField: "uid"
         required: false
       - label: "Mots-clés"
         name: "labels"
@@ -153,8 +181,11 @@ collections:
         required: false
       - label: "Client"
         name: "customer"
-        widget: "select"
-        options: ["", {% for d in site.data.customers %}{{ d[0] | jsonify }},{% endfor %}]
+        widget: "relation"
+        collection: "customer"
+        displayFields: ["name"]
+        searchFields: ["name", "url"]
+        valueField: "uid"
         required: false
       - label: "Mots-clés"
         name: "labels"

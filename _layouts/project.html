@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-{% assign customer = site.data.customers[ page.customer ] %}
+{% assign customer = site.customers | where: "uid", page.customer | first %}
 {% assign project_writings = site.posts | where: 'projects', page.slug %}
 
 <section class="full-page">
@@ -11,7 +11,7 @@ layout: base
     <p>
       {% if customer %}
         🙌 {% t A project conducted with %}
-        <a href="{{ customer.url }}">{{ customer.name }}</a>.<br>
+        <a href="{{ customer.website }}">{{ customer.title }}</a>.<br>
       {% endif %}
 
       {% if page.resources.size %}
