@@ -19,7 +19,7 @@ Pour la totalité du document, l’association “dtc innovation” sera désign
 
 ## 1.2 Mise en oeuvre
 
-- L’activité commerciale et les différentes actions de l’association “dtc” permettent la réalisation concrètes de ces projets. L’association “dtc” cherche à œuvrer en collaboration avec des organismes publics et des organisations privées en vue de pérenniser et d’autonomiser des projets exploratoires.
+- L’activité commerciale et les différentes actions de l’association “dtc” permettent la réalisation concrète de ces projets. L’association “dtc” cherche à œuvrer en collaboration avec des organismes publics et des organisations privées en vue de pérenniser et d’autonomiser des projets exploratoires.
 - Les activités commerciales possibles sont (liste indicative non-exhaustive)
   - Accompagnement à la création de structure juridiques
   - Conception/développement de produits innovants
@@ -48,7 +48,7 @@ Les Membres Noyau décident à l’unanimité moins une personne de la destituti
 
 Selon les besoins spécifiques à un projet, les Membres Noyau peuvent décider de nouvelles catégories de Membres de l’association. Toute décision relative à la création, modification ou suppression d’un type de Membre doit faire l’objet d’une Assemblée Générale.
 
-Se référer à la Charte afin de connaître la liste à jour des autres catégorie de Membres et les conditions d’entrée, de sortie et les droits et devoirs associés à chaque catégorie.
+Se référer à la Charte afin de connaître la liste à jour des autres catégories de Membres et les conditions d’entrée, de sortie et les droits et devoirs associés à chaque catégorie.
 
 
 # Article 3 : Gouvernance
@@ -87,7 +87,7 @@ Pour les articles 4.1 et 4.2 chaque décision est prise selon les modalités de 
 
 - L’Assemblée Générale Ordinaire comprend tous les Membres de l'Association et se réunit une fois par an.
 - Tous les Membres de l’association sont convoqués au moins sept jours avant la date fixée par les soins du Président ou de son mandataire. L’ordre du jour est indiqué sur les convocations.
-- Le Président, expose la situation morale et financière de l’association.
+- Le Président expose la situation morale et financière de l’association.
 - Les points de l'ordre du jour sont tous discutés.
 - Après épuisement de l’ordre du jour, les Membres Noyau procèdent à la décision du nouveau Président.
 
