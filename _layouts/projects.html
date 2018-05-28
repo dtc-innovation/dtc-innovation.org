@@ -7,11 +7,11 @@ layout: base
 </article>
 
 <section>
-  <div class="cards">
+  <div class="items">
   {% assign project_lang = 'projects_' | append: page.lang %}
   {% assign projects = site[project_lang] | sort: "title"  %}
   {% for project in projects %}
-  {% include projects/card-in-list.html project=project %}
+  {% include projects/item-in-list.html project=project %}
   {% endfor %}
   </div>
 </section>

@@ -10,6 +10,7 @@ highlights_order: null
 customer: etalab
 current_stage: User Research
 next_stage: Developing cost-efficient features
+image: /images/projects/datagouv.png
 resources:
 - name: GitHub
   url: https://github.com/etalab/user-research

@@ -9,6 +9,7 @@ labels:
 customer: cd33
 highlights_order: 1
 current_stage: Opening up local gov financial data
+image: /images/projects/dataviz-gironde.png
 resources:
 - name: GitHub
   url: 'https://github.com/dtc-innovation/dataviz-finances-gironde'

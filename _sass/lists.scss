@@ -1,0 +1,56 @@
+@import 'dtc';
+
+.list--inline {
+  @extend .pa0;
+
+  > li {
+    @extend .di;
+    @extend .nowrap;
+  }
+
+  > li:not(:last-child)::after {
+    content: "•";
+    @extend .pl2;
+    @extend .pr1;
+  }
+}
+
+.items {
+  .item {
+    @extend .flex-ns;
+    @extend .flex-row;
+    @extend .flex-wrap-m;
+    @extend .items-start;
+    @extend .justify-between;
+    @extend .mb5;
+
+    > * {
+      @extend .w-50-m;
+      @extend .w-33-l;
+    }
+
+    > header {
+      @extend .w-100-m;
+    }
+
+    > aside {
+      @extend .pt4-ns;
+      @extend .tc-l;
+
+      img {
+        max-width: 90%;
+      }
+    }
+
+    h2 {
+      @extend .f2;
+      @extend .lh-title;
+      @extend .mb0;
+    }
+    h2 + p {
+      @extend .f4;
+      @extend .lh-copy;
+      @extend .mt2;
+    }
+  }
+}
