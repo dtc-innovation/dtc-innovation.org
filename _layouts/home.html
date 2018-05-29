@@ -2,7 +2,7 @@
 layout: base
 ---
 {% assign project_lang = 'projects_' | append: page.lang %}
-{% assign projects = site[project_lang] | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+{% assign projects = site[project_lang] | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order" | slice: 0,3 %}
 
   <article class="hero">
     {{ content }}
@@ -16,7 +16,7 @@ layout: base
     {% endfor %}
     </div>
 
-    {% if projects.size > 3 %}
+    {% if site[project_lang].size > 3 %}
     <footer class="tc mv4">
       <a href="{{ site.baseurl }}/projects/" class="btn btn--large">{% t Discover all our projects %}</a>
     </footer>
