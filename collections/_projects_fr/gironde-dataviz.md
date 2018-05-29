@@ -7,7 +7,7 @@ labels:
   - Open Data
 customer: cd33
 highlights_order: 1
-current_stage: Terminé
+# current_stage: Terminé
 next_stage: Répliquer dans un autre collectivité locale
 image: /images/projects/dataviz-gironde.png
 resources:

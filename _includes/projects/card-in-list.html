@@ -17,7 +17,7 @@
     </dd>
     {% endif %}
 
-    {% if features contains 'current-stage' %}
+    {% if project.current_stage and features contains 'current-stage' %}
     <dt>{% t Current Stage %}</dt>
     <dd>{{ project.current_stage }}</dd>
     {% endif %}

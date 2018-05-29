@@ -9,7 +9,7 @@ labels:
   - Revue de code
   - Refactoring
 customer: radio-france
-current_stage: Terminé
+#current_stage: Terminé
 image: /images/projects/audits-javascript.png
 resources:
 - name: Audit — Partie 1

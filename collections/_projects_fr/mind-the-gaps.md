@@ -9,7 +9,7 @@ labels:
 customer: odi
 highlights_order: 3
 image: /images/projects/mind-the-gaps.jpg
-current_stage: Documentation de la phase 1
+current_stage: Prototype terminé
 next_stage: Présentation au sommet Open Data France/Angleterre
 resources:
 - name: Site Web
