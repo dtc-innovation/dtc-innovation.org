@@ -27,6 +27,14 @@
     <dd>{{ project.next_stage }}</dd>
     {% endif %}
 
+    {% if project.image and features contains 'image' %}
+    <dd class="cover">
+      <a href="{{ project.url | relative_url }}" rel="permalink">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.name }} • {% t Project illustration %}">
+      </a>
+    </dd>
+    {% endif %}
+
     {% assign collection = site.collections | where:'label',project.collection | first %}
     {% if project.resources.size and features contains 'resources' %}
     <dt>{% t Additional Resources %}</dt>

@@ -10,7 +10,7 @@ layout: base
 
   <section>
     <div class="cards">
-    {% assign features = 'customer,current-stage,resources' | split:',' %}
+    {% assign features = 'customer,image,next_stage' | split:',' %}
     {% for project in projects %}
     {% include projects/card-in-list.html project=project features=features %}
     {% endfor %}

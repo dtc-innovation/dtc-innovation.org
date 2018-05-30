@@ -12,6 +12,15 @@
     figure {
       @extend .mh0;
     }
+
+    .cover {
+      @extend .tc;
+
+      img {
+        @extend .h5;
+        object-fit: contain;
+      }
+    }
   }
 }
 
