@@ -3,20 +3,35 @@ option[value=""] {
 }
 
 form {
-  @extend .cf;
   @extend .flex;
-  @extend .justify-center;
+  @extend .flex-wrap;
+  @extend .justify-between;
   @extend .items-center;
 
   input {
     @extend .ba;
-    @extend .b--blue;
+    @extend .b--light-silver;
+    @extend .w-90;
+
+    &:active,
+    &:focus {
+      @extend .b--dark-gray;
+    }
   }
 
   .input-group {
-    @extend .mr4;
     @extend .mb3;
     @extend .mb0-ns;
+    @extend .w-100;
+    @extend .self-end;
+
+    &:nth-of-type(2) {
+      @extend .w-two-thirds-ns;
+    }
+
+    &:nth-of-type(3) {
+      @extend .w-third-ns;
+    }
 
     label {
       @extend .black;
