@@ -6,6 +6,7 @@ menu_order: 1
 lang: en
 ---
 
-We are a small _pluridisciplinary_ team who brings **human&ndash;centric design**, **web engineering expertise** and **collaborative practices** to your teams and products.
+We are a pluridisciplinary team of citizens.
+We ought to sit with you to **design digital products**, to **bring autonomy** to your team and to **meet with your users**.
 
-We love to craft meaningful projects, to take a step back and to empower the people we work with.
+We put a strong focus on replicability by turning their source code and their data into commons.

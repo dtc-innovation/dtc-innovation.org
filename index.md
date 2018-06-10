@@ -9,4 +9,4 @@ Nous sommes une équipe multidisciplinaire et citoyenne.
 Nous nous asseyons à vos côtés pour **créer des produits numériques**,
 rendre votre **équipe autonome** et aller à la **rencontre de vos utilisateurs**.
 
-Nous mettons ces projets en commun grâce à l'**open source** et à l'**open data**.
+Nous avons à cœur de rendre ces projets réplicables en mettant leur code et leurs données **en commun**.
