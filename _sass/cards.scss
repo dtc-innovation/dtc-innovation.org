@@ -45,4 +45,13 @@
   dd.main {
     font-size: 1em;   // restore initial size
   }
+
+  dd h2, dt h2, dd h3, dt h3 {
+    @extend .mt0;
+  }
+
+  [data-collapsed="true"] ~ dd,
+  [data-collapsed="true"] ~ dt {
+    display: none;
+  }
 }

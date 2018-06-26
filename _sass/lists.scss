@@ -16,6 +16,10 @@
 }
 
 .items {
+  &.list {
+    @extend .pa0;
+  }
+
   .item {
     @extend .flex-ns;
     @extend .flex-row;
@@ -51,6 +55,18 @@
       @extend .f4;
       @extend .lh-copy;
       @extend .mt2;
+    }
+  }
+}
+
+
+.items.items--vertical {
+  .item {
+    @extend .mb3;
+
+    > * {
+      @extend .w-100-m;
+      @extend .w-100-l;
     }
   }
 }

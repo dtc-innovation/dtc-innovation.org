@@ -23,15 +23,17 @@ layout: base
     {% endif %}
   </section>
 
-  <section>
-    <header>
-      <h1>{% t About us %}</h1>
-    </header>
+  <div class="flex">
+    <section class="flex w-40-l flex-column">
+      <header>
+        <h1>{% t Meet the Team %}</h1>
+      </header>
 
-    <div class="cards">
-    {% assign team = site.data.team | sort: 'sort_order', 'first' %}
-    {% for person in team %}
-    {% include team/card-in-list.html person=person id=person.id %}
-    {% endfor %}
-    </div>
-  </section>
+      <ul class="items list items--vertical">
+      {% assign team = site.data.team | sort: 'sort_order', 'first' %}
+      {% for person in team %}
+      <li class="item">{% include team/item-in-list.html person=person id=person.id %}</li>
+      {% endfor %}
+      </ul>
+    </section>
+  </div>
