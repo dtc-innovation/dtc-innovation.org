@@ -1,0 +1,10 @@
+<article class="flex justify-between">
+  <span class="w-20">
+    {{ event.date | date: '%d %b %Y' }}
+  </span>
+
+  <dl class="def-as-list w-80">
+    <dd class="main"><h3>{{ event.title }}</h3></dd>
+    <dd>{{ event.type }}&nbsp;• {{ event.location }}</dd>
+  </dl>
+</article>

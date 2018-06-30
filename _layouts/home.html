@@ -24,7 +24,7 @@ layout: base
   </section>
 
   <div class="flex">
-    <section class="flex w-40-l flex-column">
+    <section class="flex w-third-l mr3 flex-column">
       <header>
         <h1>{% t Meet the Team %}</h1>
       </header>
@@ -33,6 +33,20 @@ layout: base
       {% assign team = site.data.team | sort: 'sort_order', 'first' %}
       {% for person in team %}
       <li class="item">{% include team/item-in-list.html person=person id=person.id %}</li>
+      {% endfor %}
+      </ul>
+    </section>
+
+    <section class="flex w-two-thirds-l flex-column">
+      <header>
+        <h1>{% t Where To Meet with Us %}</h1>
+      </header>
+
+      <ul class="items list items--vertical">
+      {% assign events = site.events | sort: 'date' %}
+
+      {% for event in events %}
+      <li class="item">{% include events/item-in-list.html event=event %}</li>
       {% endfor %}
       </ul>
     </section>

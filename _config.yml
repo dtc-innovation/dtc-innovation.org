@@ -9,6 +9,7 @@ source_lang: en
 translations:
   fr:
     Meet the Team: Coucou c'est nous !
+    Where To Meet with Us: Où nous rencontrer
     Discover all our projects: Découvrez tous nos projets
     Your email address: Votre adresse e-mail
     Subscribe: Inscription
@@ -35,6 +36,8 @@ collections:
   projects_fr:
     output: true
     permalink: /projects/:title
+  events:
+    output: false
   decisions:
     output: true
     permalink: /decisions/:year-:month-:day.html
@@ -69,6 +72,11 @@ defaults:
     values:
       layout: "project"
       lang: "en"
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      lang: "fr"
   - scope:
       path: ""
       type: "decisions"
