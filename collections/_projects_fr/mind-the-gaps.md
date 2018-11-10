@@ -7,7 +7,6 @@ labels:
   - Open Data
   - Recherche utilisateurs
 customer: odi
-highlights_order: 3
 image: /images/projects/mind-the-gaps.jpg
 current_stage: Prototype terminé
 next_stage: Présentation au sommet Open Data France/Angleterre
