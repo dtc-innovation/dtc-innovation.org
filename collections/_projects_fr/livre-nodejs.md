@@ -1,22 +1,23 @@
 ---
 name: Node.js • Apprendre par la pratique
-short_description: |
-  Écriture et publication d'un livre pour se familiariser avec JavaScript, Node.js et l'écosystème de modules npm.
-labels:
-- Publishing
-- Content Design
-- Programming
-highlights_order: 3
-current_stage: Publication
-customer: eyrolles
+short_description: >
+  Écriture et publication d'un livre pour se familiariser avec JavaScript,
+  Node.js et l'écosystème de modules npm.
 image: images/projects/livre-nodejs.png
+customer: eyrolles
+labels:
+  - Publishing
+  - Content Design
+  - Programming
+highlights_order: '2'
+current_stage: Publication
 resources:
-- name: GitHub
-  url: https://github.com/oncletom/nodebook
-- name: Lire en ligne
-  url: https://oncletom.io/node.js/
-- name: Acheter en librairie
-  url: https://www.placedeslibraires.fr/livre/9782212139938
+  - name: GitHub
+    url: 'https://github.com/oncletom/nodebook'
+  - name: Lire en ligne
+    url: 'https://oncletom.io/node.js/'
+  - name: Acheter en librairie
+    url: 'https://www.placedeslibraires.fr/livre/9782212139938'
 ---
 
 Conception et écriture d'un parcours d'apprentissage étape par étape de la **plate-forme Node.js**.
