@@ -3,6 +3,14 @@
 ---
 @charset "utf-8";
 
+@media print { 
+  
+  nav, .page-footer { 
+    display: none !important;
+  }
+  
+}
+
 $near-white: #fafafa;
 
 @import
