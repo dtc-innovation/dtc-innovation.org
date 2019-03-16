@@ -12,8 +12,13 @@
     {% if project.customer and features contains 'customer' %}
     <dt>{% t With Whom? %}</dt>
     <dd>
-      {% assign customer = site.customers | where: "uid", project.customer | first %}
-      <a href="{{ customer.website }}" target="_blank">{{ customer.title }}</a>
+      <ul class="list list--inline list--words">
+        {% assign customer = site.customers | where: "uid", project.customer | first %}
+        <li><a href="{{ customer.website }}" target="_blank">{{ customer.title }}</a></li>
+        {%- for person in project.with -%}
+        <li><a{% if person.url %} href="{{person.url}}" target="_blank" rel="noopener"{% endif %}>{{person.name | split: ' ' | first}}</a></li>
+        {%- endfor -%}
+      </ul>
     </dd>
     {% endif %}
 

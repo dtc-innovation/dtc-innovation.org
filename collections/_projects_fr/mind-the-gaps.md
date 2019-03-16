@@ -10,6 +10,11 @@ customer: odi
 image: /images/projects/mind-the-gaps.jpg
 current_stage: Prototype terminé
 next_stage: Présentation au sommet Open Data France/Angleterre
+with:
+- name: Noémie Girard
+  url: https://noemiegirard.co
+- name: Alaine Burns
+  url: https://www.behance.net/OrangegnarO
 resources:
 - name: Site Web
   url: https://mind-the-gaps.org/fr/

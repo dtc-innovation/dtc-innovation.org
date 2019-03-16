@@ -8,7 +8,7 @@ labels:
   - HTML
   - CSS
 customer: human-coders
-current_stage: Tous les mois
+# current_stage: Tous les mois
 image: /images/projects/formations-web.png
 resources:
 - name: Formation JavaScript

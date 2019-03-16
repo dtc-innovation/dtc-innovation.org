@@ -9,8 +9,11 @@ labels:
   - Vue.js
 highlights_order: 2
 customer: etalab
-current_stage: En pause
+# current_stage: En pause
 image: /images/projects/datagouv.png
+with:
+- name: Pauline Calmé
+  url: https://twitter.com/pipocalme
 resources:
 - name: GitHub
   url: https://github.com/opendatateam/udata

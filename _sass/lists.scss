@@ -15,6 +15,27 @@
   }
 }
 
+.list--words {
+
+  > li:not(:last-child)::after {
+    content: none;
+  }
+
+  > li:not(:first-child)::before {
+    content: ", ";
+    @extend .pl0;
+    @extend .pr0;
+  }
+
+  [lang="fr"] & > li:last-child:not(:first-child)::before {
+    content: " et ";
+  }
+
+  [lang="en"] & > li:last-child:not(:first-child)::before {
+    content: " and ";
+  }
+}
+
 .items {
   .item {
     @extend .flex-ns;
