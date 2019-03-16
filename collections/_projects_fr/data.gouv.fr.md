@@ -7,7 +7,6 @@ labels:
   - Recherche utilisateurs
   - Développement web
   - Vue.js
-highlights_order: 2
 customer: etalab
 # current_stage: En pause
 image: /images/projects/datagouv.png
