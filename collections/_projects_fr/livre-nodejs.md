@@ -9,7 +9,6 @@ labels:
   - Publishing
   - Content Design
   - Programming
-highlights_order: 3
 current_stage: Publication
 resources:
   - name: GitHub
