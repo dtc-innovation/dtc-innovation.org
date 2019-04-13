@@ -6,7 +6,6 @@ labels:
   - Datavisualisation
   - Open Data
 customer: cd33
-highlights_order: 1
 current_stage: Livré en production
 #next_stage: Mise en production
 image: /images/projects/dataviz-gironde.png
@@ -15,9 +14,9 @@ with:
   url: https://reuno.net
 resources:
 - name: GitHub
-  url: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
+  url: 'https://github.com/datalocale/dataviz-finances-gironde'
 - name: Site web
-  url: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#'
+  url: 'https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale'
 - name: Vu chez Etalab
   url: https://avent.data.gouv.fr/2017/07.html
 - name: Outil de test des formules
