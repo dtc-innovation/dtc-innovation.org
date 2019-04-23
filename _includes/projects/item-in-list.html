@@ -33,7 +33,14 @@
         {% assign customer = site.customers | where: "uid", project.customer | first %}
         <li><a href="{{ customer.website }}" target="_blank">{{ customer.title }}</a></li>
         {%- for person in project.with -%}
-        <li><a{% if person.url %} href="{{person.url}}" target="_blank" rel="noopener"{% endif %}>{{person.name | split: ' ' | first}}</a></li>
+        <li>
+          {% assign name = person.name | split: ' ' | first %}
+          {% if person.url %}
+          <a href="{{person.url}}" target="_blank" rel="noopener">{{name}}</a>
+          {% else %}
+          <span class="person">{{name}}</span>
+          {% endif %}
+        </li>
         {%- endfor -%}
       </ul>
     </dd>
