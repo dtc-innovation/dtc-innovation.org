@@ -10,6 +10,9 @@ customer: ensad-lab
 current_stage: Terminé
 highlights_order: 3
 image: /images/projects/workshop-dis/dis-panels.png
+with:
+- name: Julie
+  url: http://julie-blanc.fr
 resources:
 - name: Première journée de workshop
   url: https://gitlab.com/dis-project/workshop-mars-notes/blob/master/jour-1.md
