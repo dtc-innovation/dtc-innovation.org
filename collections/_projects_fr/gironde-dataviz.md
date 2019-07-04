@@ -1,5 +1,5 @@
 ---
-name: Datavisualisation des données budgétaires
+title: Datavisualisation des données budgétaires
 short_description: >
   Rendre accessibles les recettes et investissements du Département.
 labels:

@@ -1,5 +1,5 @@
 ---
-name: Formations Web
+title: Formations Web
 short_description: |
   Gagner en confiance dans sa pratique quotidienne du développement web en apprenant à son rythme.
 labels:

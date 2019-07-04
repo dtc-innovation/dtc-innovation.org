@@ -1,5 +1,5 @@
 ---
-name: Mind the Gaps
+title: Mind the Gaps
 short_description: >
   Materializing inequalities, citizen sensing and urban resilience.
 labels:

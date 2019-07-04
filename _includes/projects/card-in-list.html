@@ -2,7 +2,7 @@
 {% assign features = include.features | default:default_features %}
 <article class="card" id="project-{{ project.slug }}">
   <h2>
-    <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.name }}</a>
+    <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.title }}</a>
   </h2>
 
   <dl class="def-as-list">
@@ -35,7 +35,7 @@
     {% if project.image and features contains 'image' %}
     <dd class="cover">
       <a href="{{ project.url | relative_url }}" rel="permalink">
-        <img src="{{ project.image | relative_url }}" alt="{{ project.name }} • {% t Project illustration %}">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.title }} • {% t Project illustration %}">
       </a>
     </dd>
     {% endif %}

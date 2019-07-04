@@ -1,5 +1,5 @@
 ---
-name: Permaculture Design Tools
+title: Permaculture Design Tools
 short_description: |
   Observe experts to design the foundations of an ecosystem of agricultural data systems and user-friendly tools.
 labels:

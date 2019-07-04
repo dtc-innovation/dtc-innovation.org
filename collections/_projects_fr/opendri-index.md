@@ -1,5 +1,5 @@
 ---
-name: OpenDRI Index
+title: OpenDRI Index
 short_description: |
   Amélioration de l'expérience utilisateur, développement front-end et accompagnement agile.
 labels:

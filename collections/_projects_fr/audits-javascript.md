@@ -1,5 +1,5 @@
 ---
-name: Audits JavaScript
+title: Audits JavaScript
 short_description: |
   Renforcer les pratiques de développement de qualité des équipes web à la Direction du Numérique.
 labels:

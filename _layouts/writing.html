@@ -14,7 +14,7 @@ layout: base
     <p class="metadata">
       {{ page.category | default: 'Writing' }}
       {% if project %}
-      about the <em><a href="{{ project.url | relative_url }}/">{{ project.name }}</a> project</em>
+      about the <em><a href="{{ project.url | relative_url }}/">{{ project.title }}</a> project</em>
       {% endif %}
       published in
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %Y' }}</time>.
@@ -30,7 +30,7 @@ layout: base
       Browse some of our <a href="{{ '/writings/' | relative_url }}">general writings</a>{% unless project %}.{% endunless %}
 
       {% if project %}
-      or rather some <a href="{{ project.url | relative_url }}/#project-writings">writings specific to <strong>{{ project.name }}</strong></a>.
+      or rather some <a href="{{ project.url | relative_url }}/#project-writings">writings specific to <strong>{{ project.title }}</strong></a>.
       {% endif %}
     </p>
   </footer>

@@ -1,5 +1,5 @@
 ---
-name: Six Elements
+title: Six Elements
 short_description: |
   Provide business metrics to recycling centers to help them reduce waste in their local area.
 labels:

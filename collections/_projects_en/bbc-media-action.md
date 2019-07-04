@@ -1,5 +1,5 @@
 ---
-name: Web Development Training
+title: Web Development Training
 short_description: >
   Strategic web development courses to enable public media companies to deliver
   better online products and services.

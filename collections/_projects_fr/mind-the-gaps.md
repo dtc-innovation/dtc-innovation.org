@@ -1,5 +1,5 @@
 ---
-name: Mind the Gaps
+title: Mind the Gaps
 short_description: >
   Mesurer la qualité de vie et le bien-être des quartiers avec une démarche citoyenne et inclusive.
 labels:

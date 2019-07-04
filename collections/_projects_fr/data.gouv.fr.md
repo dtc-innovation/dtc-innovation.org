@@ -1,5 +1,5 @@
 ---
-name: data.gouv.fr
+title: data.gouv.fr
 short_description: |
   Améliorer l'expérience utilisateur de la plate-forme open data de l'État.
 labels:

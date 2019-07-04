@@ -1,5 +1,5 @@
 ---
-name: Public Finance Transparency
+title: Public Finance Transparency
 short_description: >
   Provide a lean and empowering access of the public budget to citizens and
   local administration.

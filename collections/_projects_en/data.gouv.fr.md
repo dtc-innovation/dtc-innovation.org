@@ -1,5 +1,5 @@
 ---
-name: data.gouv.fr
+title: data.gouv.fr
 short_description: |
   Improve France's Open Data platform with a better user experience.
 labels:

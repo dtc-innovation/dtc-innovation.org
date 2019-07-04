@@ -3,7 +3,7 @@
 <article class="item" id="project-{{ project.slug }}">
   <header>
     <h2>
-      <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.name }}</a>
+      <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.title }}</a>
     </h2>
 
     <p>{{ project.short_description }}</p>
@@ -20,7 +20,7 @@
   <aside>
     {% if project.image %}
     <a href="{{ project.url | relative_url }}" rel="permalink">
-      <img src="{{ project.image | relative_url }}" alt="{{ project.name }} • {% t Project illustration %}">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }} • {% t Project illustration %}">
     </a>
     {% endif %}
   </aside>
