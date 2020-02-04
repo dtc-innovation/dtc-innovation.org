@@ -33,22 +33,22 @@
     current_location: Bordeaux, France
   github: davidbruant
   twitter: DavidBruant
-- id: thomas
-  name: Thomas
-  sort_order: 2
-  en:
-    short_description: |
-      Full stack software designer with a crush for user interfaces,
-      scalable systems and personal development.
-    what_makes_them_happy: Walking in Nature.
-    notable_fact: I bake my own sourdough bread.
-    current_location: Crest, Drôme, France
-  fr:
-    short_description: |
-      Développement web, facilitation de projets et travail sur le terrain avec les utilisateurs.
-    what_makes_them_happy: Planter la tente en pleine nature.
-    notable_fact: Je fais du pain au levain.
-    current_location: Crest, Drôme, France
-  twitter: oncletom
-  github: oncletom
-  mastodon: https://masto.oncletom.io/@thomas
+# - id: thomas
+#   name: Thomas
+#   sort_order: 2
+#   en:
+#     short_description: |
+#       Full stack software designer with a crush for user interfaces,
+#       scalable systems and personal development.
+#     what_makes_them_happy: Walking in Nature.
+#     notable_fact: I bake my own sourdough bread.
+#     current_location: Crest, Drôme, France
+#   fr:
+#     short_description: |
+#       Développement web, facilitation de projets et travail sur le terrain avec les utilisateurs.
+#     what_makes_them_happy: Planter la tente en pleine nature.
+#     notable_fact: Je fais du pain au levain.
+#     current_location: Crest, Drôme, France
+#   twitter: oncletom
+#   github: oncletom
+#   mastodon: https://masto.oncletom.io/@thomas
